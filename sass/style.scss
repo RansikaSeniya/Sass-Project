@@ -61,6 +61,13 @@ body {
           color: $primary-color;
         }
       }
+
+      a.active {
+        color: $primary-color;
+        font-weight: 700;
+        border-bottom: 2px solid $primary-color;
+        padding-bottom: 0.25rem;
+      }
     }
 
     .btn {
@@ -83,7 +90,7 @@ body {
   }
 }
 
-// Hero Section
+// Hero Section (used only on index.html)
 .hero {
   background: linear-gradient(135deg, #6366f1 0%, #8b5cf6 100%);
   color: white;
